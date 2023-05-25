@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+
+    .gradient {
+        background: linear-gradient(45deg, #dc0000, #850000, #ffdb89, #fff6c3);
+        background-size: 300% 300%;
+        animation: color 15s ease infinite;
+    }
+
+    @keyframes color {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+</style>
+
+<body class="gradient">
+
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="img/logo.png" class="logo" alt="logo da oficina">
+        <nav class="cabecalho-conteudo">
+        <a class="cabecalho-conteudo-lista"></a>Home</a>
+        <a class="cabecalho-conteudo-lista"></a>Contato</a>
+        <a class="cabecalho-conteudo-lista"></a>Sobre nós</a>
+        </nav>
+</header>
+
+    <main>
+    <table class="tabela">
+        <caption class="titulo-principal-login">Dados dos Veículos Cadastrados</caption>
+            
+     <tr>
+        <thead>
+         <th>ID veículo</th>
+         <th>Nome do cliente</th>
+         <th>Modelo</th>
+         <th>Marca</th>
+         <th> Placa</th>
+         <th>Ano do veículo</th>
+        </thead>
+         
+    
+     </tr>
+     <tr>
+         <td>000</td>
+         <td>Cezar</td>
+         <td>Gol</td>
+         <td>Volkswagen</td>
+         <td>GGGG</td>
+         <td>2003</td>
+         <th><button>Editar</button></th>
+         <th><button>Apagar</button></th>
+         
+     </tr>
+     <tr>
+        <td>000</td>
+        <td>Joao</td>
+        <td>Gol</td>
+        <td>Volkswagen</td>
+        <td>GGGG</td>
+        <td>2003</td>
+        <th><button>Editar</button></th>
+         <th><button>Apagar</button></th>
+     </tr>
+     <tr>
+        <td>000</td>
+        <td>Pamela</td>
+        <td>Gol</td>
+        <td>Volkswagen</td>
+        <td>GGGG</td>
+        <td>2003</td>
+        <th><button>Editar</button></th>
+        <th><button>Apagar</button></th>
+     </tr>
+        </table>
+
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape-texto">&copy; Copyright RC Automotivo</p>
+    </footer>
+
+</body>
+
+</html>

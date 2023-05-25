@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Clientes</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+
+    .gradient {
+        background: linear-gradient(45deg, #dc0000, #850000, #ffdb89, #fff6c3);
+        background-size: 300% 300%;
+        animation: color 15s ease infinite;
+    }
+
+    @keyframes color {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+</style>
+
+<body class="gradient">
+
+    <header class="cabecalho">
+            <img class="cabecalho-imagem" src="img/logo.png" class="logo" alt="logo da oficina">
+            <nav class="cabecalho-conteudo">
+            <a class="cabecalho-conteudo-lista"></a>Home</a>
+            <a class="cabecalho-conteudo-lista"></a>Contato</a>
+            <a class="cabecalho-conteudo-lista"></a>Sobre nós</a>
+            </nav>
+    </header>
+
+    <main class="corpo">
+
+        <forms id="formulario">
+            <fieldset class="corpo-formulario">
+
+            <legend class="titulo-principal-login">Preencha os dados</legend>
+            <label for="nome">Nome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" class="input-padrao" required placeholder="xxx.xxx.xxx-xx">
+
+            <label for="rg">RG</label>
+            <input type="text" id="rg" class="input-padrao" required placeholder="xxxxxxxx-x">
+
+            <label for="datadenascimento">Data de nascimento</label>
+            <input type="date" id="date" class="input-padrao" required>
+
+            <label for="endereco">Endereço</label>
+            <input type="text" id="endereco" class="input-padrao" required>
+
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" class="input-padrao" required>
+
+            <label for="estado">Estado</label>
+            <input type="text" id="estado" class="input-padrao" required>
+
+            <label for="cep">CEP</label>
+            <input type="text" id="cep" class="input-padrao" required placeholder="xxxxx-xxx">
+
+            <label for="email">Email</label>
+            <input type="text" id="cpf" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            
+                <legend class="titulo-principal-login">Sobre seu automóvel</legend>
+                
+            <label for="modelo">Modelo</label>
+            <input type="text" id="modelo" class="input-padrao" required>
+
+            <label for="marca">Marca</label>
+            <input type="text" id="marca" class="input-padrao" required>
+            
+            <label for="placa">Placa</label>
+            <input type="text" id="placa" class="input-padrao" required>
+
+            <label for="anocarro">Ano do carro</label>
+            <input type="text" id="anocarro" class="input-padrao" required>
+
+            <label for="datacadastro">Data do cadastro</label>
+            <input type="date" id="date" class="input-padrao" required>
+
+            <label for="mensagem">Deixe um comentário para nós</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+            <input type="submit" value="Enviar formulário" class="enviar">    
+
+            </fieldset> 
+
+        </forms>
+    </main>
+
+        <footer class="rodape">
+            <p class="rodape-texto">&copy; Copyright RC Automotivo</p>
+        </footer>
+    
+        
+    </body>
+    
+    </html>
